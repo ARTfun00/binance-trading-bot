@@ -1,0 +1,19 @@
+{
+  "name": "binance-trading-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-dev": "node --env-file=.env.development index.js",
+    "start-prod": "node --env-file=.env.production index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.7.5",
+    "jest": "^29.7.0",
+    "typescript": "^5.6.3"
+  }
+}
